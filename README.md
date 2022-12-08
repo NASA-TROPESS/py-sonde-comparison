@@ -8,6 +8,10 @@ This program makes use of the WOUDC pywoudc package (https://github.com/woudc/py
 
 Please note that ingesting satellite data from different groups still requires changing, thoughts and advice on this is welcome.
 
+edward.malina.13 @ucl.ac.uk. (remove the space)
+
+
+
 ## Initial Requirements
 
 - Python 3 and above
