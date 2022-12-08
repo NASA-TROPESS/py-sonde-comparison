@@ -8,4 +8,4 @@ py_sonde_comparison.egg-info/dependency_links.txt
 py_sonde_comparison.egg-info/not-zip-safe
 py_sonde_comparison.egg-info/requires.txt
 py_sonde_comparison.egg-info/top_level.txt
-shell/Py-sonde-comparison
+shell/py-sonde-comparison
