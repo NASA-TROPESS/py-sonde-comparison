@@ -74,8 +74,8 @@ cd pysonde
 Clone the repository:
 
 ```
-git clone git@github-fn.jpl.nasa.gov:MUSES-Processing/Py-sonde-comparison.git
-cd Py-sonde-comparison
+git clone https://github.com/NASA-TROPESS/py-sonde-comparison.git
+cd py-sonde-comparison
 ```
 
 Create a branch for yourself, to allow for development:
@@ -119,10 +119,10 @@ source configure.sh
 Your command line interface should look similar to this:
 
 ```
-(.venv) (pywoudc) [ebmalina@tb14 Py-sonde-comparison]$  
+(.venv) (pywoudc) [ebmalina@tb14 py-sonde-comparison]$  
 ```
 
-To see the code in Py-sonde-comparison, it is all stored in the py_sonde_comparison folder. With cli.py forming the lion's share of the code. 
+To see the code in py-sonde-comparison, it is all stored in the py_sonde_comparison folder. With cli.py forming the lion's share of the code. 
 
 The code is split into two key components, 'colocate' and 'plot_results'. Colocate takes input satellite data and colocates the footprints with ozonesonde data within a certain date range. The output from colocate is an npz file, which the 'plot_results' function uses. Plot_results reads in the npz file and plots the data, currently only percentage column differences are plotted, but this can be adapted as needed depending on requirements.
 
@@ -133,7 +133,7 @@ The next step is to test/run the code. In the run directory are two example file
 cris_sonde_colocate.sh - This script runs the colocate for the TROPESS CrIS product, invoking takes this form in the this script.
 
 ```
-  Py-sonde-comparison colocate \
+  py-sonde-comparison colocate \
     --dataset TROPESS-CRIS \
     --start-date 2018-01-30 \
     --end-date 2018-06-30 \
@@ -181,7 +181,7 @@ This file can be changed/modified as required
 cris_sonde_plot.sh - This script runs the plot_results for the output from colocate.
 
 ```
- Py-sonde-comparison plot-results \
+ py-sonde-comparison plot-results \
     --available-datasets TROPESS-CRIS,TROPESS-AIRSOMI \
     --input ~/output_py/ozonesonde/ \
     --output ~/output_py/ozonesonde/
