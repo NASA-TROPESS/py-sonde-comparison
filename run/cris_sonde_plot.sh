@@ -13,7 +13,7 @@ umask 0
 
 # run py-sonde-comparison
 time \
-  Py-sonde-comparison plot-results \
+  py-sonde-comparison plot-results \
     --available-datasets TROPESS-CRIS,TROPESS-AIRSOMI \
     --input ~/output_py/ozonesonde/ \
     --output ~/output_py/ozonesonde/
