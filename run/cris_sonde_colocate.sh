@@ -13,7 +13,7 @@ umask 0
 
 # run py-sonde-comparison
 time \
-  Py-sonde-comparison colocate \
+  py-sonde-comparison colocate \
     --dataset TROPESS-CRIS \
     --start-date 2018-01-30 \
     --end-date 2018-06-30 \
