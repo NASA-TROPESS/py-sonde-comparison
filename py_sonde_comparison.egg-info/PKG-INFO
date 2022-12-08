@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: py-sonde-comparison
+Version: 0.1.0
+Summary: Satellite, ozonesonde comparison tool, will largely be generic to allow for multiple satellite datasets
+Home-page: https://github.jpl.nasa.gov/MUSES-Processing/Py-sonde-comparison
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

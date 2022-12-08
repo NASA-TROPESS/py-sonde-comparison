@@ -1,0 +1,6 @@
+pylint==2.2.2
+pytest==6.0.1
+pytest-testmon==1.0.3
+pytest-watch==4.2.0
+invoke==1.4.1
+pex==2.1.65
