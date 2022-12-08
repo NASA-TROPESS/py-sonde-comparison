@@ -3,10 +3,10 @@ from setuptools import setup
 setup(name='py_sonde_comparison',
       version='0.1.0',
       description='Satellite, ozonesonde comparison tool, will largely be generic to allow for multiple satellite datasets',
-      url='https://github.jpl.nasa.gov/MUSES-Processing/Py-sonde-comparison',
+      url='https://github.com/NASA-TROPESS/py-sonde-comparison.git',
       license='MIT',
       packages=['py_sonde_comparison'],
-      scripts=['shell/Py-sonde-comparison'],
+      scripts=['shell/py-sonde-comparison'],
       install_requires=[
         'setuptools',
         'click==8.1.2',
