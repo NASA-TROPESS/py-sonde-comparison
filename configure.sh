@@ -27,9 +27,6 @@ then
     eval "$(pyenv init --path)"
 fi
 
-# use custom TMPDIR to avoid running out of space in /tmp
-export TMPDIR=~/muses/tmp
-mkdir -p $TMPDIR
 
 # create virtual environment
 python3 -m venv .venv
